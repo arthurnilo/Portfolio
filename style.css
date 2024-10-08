@@ -1,0 +1,281 @@
+:root {
+--backgroungColor: rgb(0, 38, 52);
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+}
+
+
+header {
+    padding: 1vw;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+    background-color: rgb(0, 13, 17, 1);
+    color: white;
+    z-index: 1000;
+}
+
+header h1:first-of-type {
+    padding-right: 226px;
+    padding-left: 30px;
+}
+
+nav {
+    margin-right: 30px;
+}
+
+nav a {
+    margin: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: #1E90FF;
+    text-decoration: underline;
+}
+
+.background-main {
+    background: radial-gradient(circle, #002634 0%, rgba(0,0,0,1) 100%);
+    height: 100vh;
+    width: 100vw;
+}
+
+section.main {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+    padding: 125px;
+    color: rgb(221, 221, 221);
+    cursor: default;
+}
+
+section.main p {
+    padding-bottom: 10px;
+}
+
+.button {
+    width: 8vw;
+    height: 2vw;
+    transition: all 250ms ease-in-out;
+    border: none;
+    background-color: #2090ff;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(247, 247, 247);
+    border-radius: 1vw;
+}
+
+.button2 {
+    height: 35px;
+    transition: all 250ms ease-in-out;
+    border: none;
+    background-color: #2280dd;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(247, 247, 247);
+    border-radius: 7px;
+}
+
+.button2:hover {
+    box-shadow: 0 0 10px 0 #1E90FF inset, 0 0 10px 4px #1E90FF;
+    background-color: rgb(135, 206, 250, 0.0);
+    color: #002634;
+}
+
+button:hover {
+    box-shadow: 0 0 10px 0 #1E90FF inset, 0 0 10px 4px #1E90FF;
+    background-color: rgb(135, 206, 250, 0.0);
+}
+
+section article {
+    width: 35vw;
+    font-size: 20px;
+    width: 500px;
+}
+
+section article h1 {
+    font-size: 40px;
+}
+
+section aside {
+    border: 0;
+    width: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section aside img {
+    border-radius: 20px;
+    width: 368px;
+    height: 368px;
+}
+
+section#projetos {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    padding-bottom: 150px;
+    background: radial-gradient(circle, #002634 0%, rgba(0,0,0,1) 100%);
+    font-size: 20px;
+    height: 40vh;
+    width: 80vw;
+    border-radius: 10px;
+    color: rgb(221, 221, 221);
+    cursor: default;
+}
+
+section h1 {
+    font-size: 38px;
+}
+
+.grid {
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px;
+}
+
+.grid img {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.grid img:hover {
+    cursor: pointer;
+    scale: 110%;
+    transition: 0.3s;
+    background-color: #002634;
+    opacity: 30%;
+
+}
+
+section#skills {
+    padding: 100px 100px 10px 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    height: 50vh;
+    cursor: default;
+}
+
+.cont-skills img {
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+}
+
+.cont-skills {
+    display: flex;
+    align-items: center;
+}
+
+.cont-skills h2 {
+    font-size: 18px;
+}
+
+.cont-skills p {
+    font-size: 14px;
+    max-width: 370px;
+}
+
+.info {
+    padding: 10px;
+}
+
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 20vw;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+#contato div {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputs {
+    padding: 0 0 30px 0;
+    font-size: 19px;
+    width: 300px;
+    font-weight: 600;
+}
+
+.inputs label {
+    padding-top: 10px;
+}
+
+input {
+    height: 30px;
+    padding-left: 10px;
+    border-color: #042d57;
+    border-radius: 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.icons i {
+    transition: 0.2s;
+    scale: 230%;
+    color: rgb(30, 48, 80);
+}
+
+.icons i:hover {
+    scale: 270%;
+    transition: 0.2s;
+}
+
+textarea {
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    max-width: 290px;
+    min-width: 290px;
+    padding: 0px 0px 0px 10px;
+    border-color: #0e4e8d;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+header i {
+    scale: 100%;
+}
+
+i {
+    scale: 180%;
+}
