@@ -158,28 +158,26 @@ section h1 {
 }
 
 .grid img {
-    width: 400px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     border-radius: 20px;
     transition: 0.3s;
 }
 
 .grid img:hover {
     cursor: pointer;
-    scale: 110%;
+    scale: 103%;
     transition: 0.3s;
-    background-color: #002634;
-    opacity: 30%;
-
+    opacity: 90%;
 }
 
 section#skills {
-    padding: 100px 100px 10px 100px;
+    padding: 100px 100px 50px 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
     font-size: 20px;
-    height: 50vh;
+    height: 100%;
     cursor: default;
 }
 
@@ -213,7 +211,7 @@ section#skills {
     align-items: center;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 20vw;
+    width: auto;
     padding: 40px;
     border-radius: 30px;
 }
@@ -261,12 +259,11 @@ input {
 }
 
 textarea {
-    height: 100px;
     min-height: 100px;
     max-height: 100px;
     max-width: 290px;
     min-width: 290px;
-    padding: 0px 0px 0px 10px;
+    padding: 3px 0px 0px 10px;
     border-color: #0e4e8d;
     border-radius: 10px;
     border-width: 2px;
